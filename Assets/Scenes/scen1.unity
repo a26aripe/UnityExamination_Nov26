@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 1718515922}
   - component: {fileID: 1718515921}
   - component: {fileID: 1718515920}
+  - component: {fileID: 1718515926}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -805,6 +806,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718515926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718515919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408de0ecf7eb587418be77135c395c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteAnimation
+  idleFrames:
+  - {fileID: 4723107735738678597, guid: 98655b9319f553640ae25fbaffa27236, type: 3}
+  - {fileID: -7385789195546760866, guid: 98655b9319f553640ae25fbaffa27236, type: 3}
+  idleFrameRate: 0.1
+  walkFrames:
+  - {fileID: 4035959289877228764, guid: 532164316418d804bbc447c31f6dfd0b, type: 3}
+  - {fileID: -982904232830982447, guid: 532164316418d804bbc447c31f6dfd0b, type: 3}
+  - {fileID: -350908408369970039, guid: 532164316418d804bbc447c31f6dfd0b, type: 3}
+  - {fileID: -5409570386352685021, guid: 532164316418d804bbc447c31f6dfd0b, type: 3}
+  walkFrameRate: 0.1
+  jumpFrames:
+  - {fileID: -4249684210245222993, guid: 75862fe1edb3df342b3ee80948b53c08, type: 3}
+  - {fileID: 5378614732230808341, guid: 75862fe1edb3df342b3ee80948b53c08, type: 3}
+  - {fileID: -8555099131066390858, guid: 75862fe1edb3df342b3ee80948b53c08, type: 3}
+  - {fileID: 3611135837702283678, guid: 75862fe1edb3df342b3ee80948b53c08, type: 3}
+  jumpFrameRate: 0.1
 --- !u!1 &1999504837
 GameObject:
   m_ObjectHideFlags: 0
